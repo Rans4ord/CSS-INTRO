@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav-bar{
+    border: white solid 1px;
+    width: 100%;
+    height: 20vh;
+    position: fixed;
+    top: 0;
+    display: flex;
+    background-color: white;
+    z-index: 10;
+}
+
+.logo{
+    border: none;
+    flex-basis: 40%;
+    padding: 15px;
+}
+
+.buttons{
+    border: no;
+    flex-basis: 60%;
+}
+
+ul{
+    list-style: none;
+}
+
+.lists{
+    display: inline-block;
+    position: relative; left: 30%;top: 50px;
+    padding: 5px;
+}
+
+.ancor{
+    text-decoration: none;
+    color: black;
+    font-weight: 500px;
+}
+
+.image{
+    position: absolute;left: 100px;
+}
+
+.slider{
+    border: solid tomato 1px;
+    width: 100%;
+    height: 100vh;
+    position: relative;top: 150px;
+    background-image: url('./slider-01.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.best-wishes{
+    display: flex;
+    width: 100%;
+    height: 50vh;
+}
+
+.left-image{
+    flex-basis: 50%;
+    width: 50%;
+    border: red 1px solid;
+    position: relative;top: 150px;
+}
+
+.right-text{
+    flex-basis: 50%;
+    border: blue 2px solid;
+    width: 50%;
+    position: relative;left: 50%;top: -355px;
+    height: 68.6vh;
+}
