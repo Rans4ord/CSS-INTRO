@@ -1,0 +1,99 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box; 
+}
+
+body{
+    background-color: rgb(219, 226, 226);
+    background-image: linear-gradient(to bottom right, rgb(155, 183, 238), rgb(249, 73, 202))
+}
+
+.border{
+    border-color: black;
+    width: 90%;
+    margin: auto;
+    height: 80vh;
+    display: flex;
+    margin-top: 5%;
+    box-shadow: 1px 20px 30px 2px grey;
+    border: none;
+}
+
+.big-container{
+    border: solid red 3px;
+    flex-basis: 100%;
+    background-color: red;    
+}
+
+div.big-container{
+    background-color: red;
+    opacity: 0.6;
+}
+
+h1{
+    color: white;
+    position: relative;top: 30%;left: 20%;
+}
+
+span{
+    color: white;
+    position: relative;top: 30%;left: 20%; 
+}
+
+div.small-container{
+    width: 35%;
+    height: 70%;
+    position: relative;left: 55%;top: -13%;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 1px 4px 5px 1px rgb(43, 14, 14);
+    border: none;
+}
+
+.thin-container{
+    width: 35%;
+    height: 10%;
+    background-color: rgb(71, 2, 136);
+    position: relative;top: -15%;left: 55%;
+    border-radius: 10px;
+    box-shadow: 1px 5px 5px 1px rgb(62, 6, 115);
+}
+
+input{
+    position: relative;top: 50px;left: 15px;
+    width: 90%;
+    border-radius: 5px;
+    height: 6vh;
+    padding-left: 3vh;
+    border-color: rgb(239, 239, 239);
+    margin: 10px;
+}
+
+input::placeholder{
+    color: black;
+}
+
+button{
+    position: relative;top: 50px;left: 20px;
+    border-radius: 5px;
+    width: 90%;
+    height: 5vh;
+    background-color: rgb(3, 192, 97);
+    border-color: rgb(6, 210, 108);
+    box-shadow: 1px 1px 3px 1px darkgreen;
+    cursor: pointer;
+    color: white;
+    padding: 5px;
+}
+
+.text{
+    color: blue;
+    position: relative;top: 60px;left: 45px;
+    font-size: x-small;
+}
+
+a{
+    color: red;
+    
+}
