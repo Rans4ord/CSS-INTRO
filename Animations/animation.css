@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: lavender;
+}
+
+.empty-container{
+    width: 50%;
+    height: 50vh;
+    border: 1px solid navy;
+    margin: auto;
+    background-color: navy;
+    animation-name: background-changer;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 5s;
+    background-image: linear-gradient(to right,yellow,orange);
+    animation-name: background-image;
+    animation-delay: 3s;
+    animation-delay: 5s;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+
+@keyframes background-changer{
+    /*from {
+        background-color: navy;
+    }
+    to {
+        background-color: mistyrose;
+    }
+    0% {
+        background-color: aquamarine;
+    }
+    20% {
+        background-color: peachpuff;
+    }
+    40% {
+        background-color: olive;
+    }
+    60% {
+        background-color: hotpink;
+    }
+    80%{
+        background-color: thistle;
+    }
+    90%{
+        background-color: palegoldenrod;
+    }
+    100%{
+        background-color: burlywood;
+    }*/
+}
+
+@keyframes background-image{
+    from{
+        background-image: linear-gradient(to right,yellow,orange);
+    }
+    0% {
+        background-image: url(./IMG_4446.JPG);
+    }
+    20% {
+        background-image: url(./w1.png);
+    }
+    30% {
+        background-image: url(./IMG_4445.JPG);
+    }
+}

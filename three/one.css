@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main-container{
+    display: flex;
+    border: 2px solid rgb(249, 249, 251);
+    height: 70vh;
+    width: 80%;
+    position: relative;left: 10%;top: 100px;
+    box-shadow: 1px 4px 20px 2px grey;
+}
+.one{
+    flex-basis: 25%;
+    border:1px solid blue;
+    height: 50vh;
+    width: 23%;
+    position: fixed;top: 175px;left: 20%;
+    background-color: rgb(221, 145, 2);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: none;
+}
+
+.two{
+    flex-basis: 25%;
+    border: 1px solid rgb(238, 158, 19);
+    height: 50vh;
+    width: 26%;
+    position: relative;left: 40%;top: 73.9px;
+    background-color: darkcyan;
+    border: none;
+}
+
+.three{
+    flex-basis: 25%;
+    border: 1px solid rgb(0, 255, 8);
+    height: 50vh;
+    width: 26%;
+    position: relative;top: 73.8px;left: 40%;
+    background-color: rgb(2, 82, 66);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+}
+
+h1{
+    position: relative;left: 20%;top: 30px;
+    color: white;
+}
+
+span{
+    position: relative;left: 20%;top: 40px;
+    color: white;
+    font-weight: lighter;
+}
+
+button{
+    background-color: white;
+    color:  rgb(221, 145, 2);
+    position: relative;left: 20%;top: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    border-color: white;
+    width: 40%;
+    
+}
+
+svg{
+    position: relative;left: 17%;top: 20px;
+}
+
+button.button-two{
+    color: darkcyan;
+    position: relative;left: -25%;top: 140px;
+    padding: 10px;
+    border-radius: 20px;
+    border-color: white;
+    width: 50%;
+}
+span.span-two{
+    position: relative;top: 60px;
+}
+
+button.button-three{
+    color: rgb(2, 82, 66);
+    width: 50%;
+    position: relative;top: 140px;left: 1%;
+}
+
+span.span-three{
+    position: relative;top: 60px;
+}
+
+.button-two:hover{
+    background-color: transparent;
+    color: white;
+    border-color: white;
+} 
+
+.button-three:hover{
+    background-color: transparent;
+    color: white;
+    border-color: white;
+} 
+
+button:hover{
+    background-color: transparent;
+    color: white;
+    border-color: white;
+} 

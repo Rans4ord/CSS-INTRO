@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: lavender;
+}
+
+.drop-down{
+    list-style: none;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+
+}   
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: lavenderblush;
+    padding-top: 10px;
+    padding-left: 2px;
+    margin: -4%;
+}
+.drop-down:hover .dropdown-content{
+    display: block;
+}
+
+a{
+    text-decoration: none;
+}
+
+.text{
+    width: 20%;
+    height: 30vh;
+    border: solid blue 2px;
+    overflow: scroll;
+    position: relative;top: 100px;
+}
+
+li{
+    padding: 60px;
+}
