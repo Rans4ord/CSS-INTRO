@@ -100,7 +100,8 @@ button:hover{
 input:hover{
     
     border-color: rgb(251, 64, 64);
-    background-color: transparent;  
+    background-color: transparent;
+    outline: #fc4d4d;  
 }
 
 span.please{

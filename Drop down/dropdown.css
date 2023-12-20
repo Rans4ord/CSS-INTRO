@@ -4,7 +4,8 @@
 }
 
 body{
-    background-color: lavender;
+    background-color: #4C545C;
+   
 }
 
 .drop-down{
@@ -22,6 +23,7 @@ body{
     padding-top: 10px;
     padding-left: 2px;
     margin: -4%;
+    
 }
 .drop-down:hover .dropdown-content{
     display: block;
